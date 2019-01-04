@@ -5,8 +5,8 @@
 <?php
 @define("SERVERNAME", "localhost");
 @define("USERNAME", "root");
-@define("PASSWORD", "kissaliv");
-@define("DATABASE", "facilityDirectory");
+@define("PASSWORD", "deleted");
+@define("DATABASE", "deleted");
 	$conn = mysqli_connect(SERVERNAME, USERNAME, PASSWORD, DATABASE);
 	//mysql_set_charset('utf8', $conn);
 		if (!$conn) {
